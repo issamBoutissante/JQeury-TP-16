@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 1</title>
+  </head>
+  <body>
+    <form
+      style="border: 1px solid black; width: 550px; margin: auto; padding: 10px"
+    >
+      <label>Nom d'utilisateur</label><br />
+      <input type="text" class="text" id="nom" /><br />
+      <label>Mot de passe</label><br />
+      <input type="password" class="text" id="motPasse" /><br />
+      <label>Sexe</label>
+      Homme<input type="radio" name="sexe" /> Femme<input
+        checked
+        type="radio"
+        name="sexe"
+      />
+      Commentaires
+      <textarea id="commentaires" class="text" cols="30" rows="5"></textarea
+      ><br />
+      <img src="./sexe.jpg" alt="person image" width="100px" /><br />
+      <input type="button" id="envoyer" value="Envoyer" />
+      <input type="button" id="annuler" value="Annuler" />
+    </form>
+  </body>
+  <script src="./jquery.js"></script>
+  <script src="./Exercice1.js"></script>
+</html>
